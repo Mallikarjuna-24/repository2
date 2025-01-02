@@ -163,3 +163,6 @@ def homepage(request):
 
 def gitview(request):
     return HttpResponse("<h1>Hello User From Git(local)...!!!<h1><hr/>")
+
+def githubview(request):
+    return HttpResponse("<h1>Hello User From Github(online)...!!!<h1><hr/>")
