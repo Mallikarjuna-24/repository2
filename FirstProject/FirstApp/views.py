@@ -160,3 +160,6 @@ def homepage(request):
     </html>
     '''
     return HttpResponse(ss)
+
+def gitview(request):
+    return HttpResponse("<h1>Hello User From Git(local)...!!!<h1><hr/>")
