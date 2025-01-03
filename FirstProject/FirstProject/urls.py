@@ -37,7 +37,7 @@ urlpatterns = [
     #App2
     path('f22/',v3.f22),
     
-    re_path('^.*$/',views.homepage),
+    # re_path('^.*$/',views.homepage),
     re_path('^.*$',views.homepage),
 
 ]
